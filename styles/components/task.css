@@ -9,6 +9,8 @@
 
 .task:hover {
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .task__name {
@@ -39,5 +41,11 @@
 
 .completed {
     background-color: #ABFFB8;
+}
+
+.task__details {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 

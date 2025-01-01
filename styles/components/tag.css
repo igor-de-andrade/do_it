@@ -1,0 +1,23 @@
+@import url('../global.css');
+
+.tag {
+    font-family: var(--default-font);
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.tag__to-do {
+    background-color: #524F4F;
+    color: #FFFFFF;
+}
+
+.tag__in-progress {
+    background-color: #FFD631;
+    color: #000000;
+}
+
+.tag__completed {
+    background-color: #1CB433;
+    color: #FFFFFF;
+}
