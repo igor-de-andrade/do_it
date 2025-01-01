@@ -1,0 +1,47 @@
+@import url('../global.css');
+
+.button {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--default-font);
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+
+    transform: translateY(-2px);
+}
+
+.button__icon {
+    width: 14px;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.primary-button:hover {
+    background-color: #ee8b28;
+    border-style: hidden;
+}
+
+.primary-button {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.secundary-button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}

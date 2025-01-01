@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 20px;
+}
+
+.header {
+    text-align: center;
+}
+
+.logo {
+    width: 25%;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
