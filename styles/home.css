@@ -23,3 +23,9 @@ body {
     flex-direction: row;
     gap: 10px;
 }
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
