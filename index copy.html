@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do It</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/components/button.css">
+    <link rel="stylesheet" href="./styles/components/task.css">
+    <link rel="stylesheet" href="./styles/components/tag.css">
+    <link rel="stylesheet" href="./styles/components/quickview.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="./assets/logo.svg" class="logo">
+    </div>
+    <div class="options">
+        <div class="options__buttons">
+            <button class="button primary-button" id="new-task">
+                <img src="./assets/new-white.svg" class="button__icon">
+                Tarefa
+            </button>
+            <button class="button secundary-button">
+                <img src="./assets/new-orange.svg" class="button__icon">
+                Categoria
+            </button>
+        </div>
+        <div class="options__filters">
+            <input type="date">
+            <input type="text">
+            <label>Exibir tarefas concluídas</label>
+            <input type="checkbox">
+        </div>
+    </div>
+
+    <div class="quickview">
+        <div class="quickview__header">
+            <p class="quickview__header__title">Tarefa</p>
+        </div>
+        <div class="quickview__body">
+            <input type="text"></input>
+            <textarea></textarea>
+
+        </div>
+        <div class="quickview__footer">
+            <button class="button primary-button">Salvar</button>
+            <button class="button secundary-button">Fechar</button>
+        </div>
+
+    </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+</body>
+</html>
