@@ -1,15 +1,14 @@
 import TaskComponent from "./components/task.js"
+import Quickview from "./components/quickview.js"
 
-// const newTask = document.getElementById('new-task')
+const newTask = document.getElementById('new-task')
 
-// newTask.addEventListener('click', async () => {
-//     try {
-//         const tasks = await taskApi.getAllTasks()
-//         console.log(tasks)
-//     } catch(error) {
-//         console.error('Erro supremo:', error)
-//     }
-// })
+newTask.addEventListener('click', () => {
+    console.log('teste')
+    const quickviewElement = Quickview.openQuickview()
+
+    document.body.appendChild(quickviewElement)
+})
 
 document.addEventListener('DOMContentLoaded', async () => {
     TaskComponent.renderTask()

@@ -1,0 +1,17 @@
+@import url('../global.css');
+
+.input-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-date__field {
+    font-family: var(--default-font);
+    /* border: solid;
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 2px; */
+    padding: 4px;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+}

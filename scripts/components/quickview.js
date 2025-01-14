@@ -1,47 +1,12 @@
-<!DOCTYPE html>
-<html lang="PT-BR">
+class Quickview { 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do It</title>
-    <link rel="icon" type="image/svg+xml" href="./assets/logo.svg">
-    <link rel="stylesheet" href="./styles/home.css">
-    <link rel="stylesheet" href="./styles/components/button.css">
-    <link rel="stylesheet" href="./styles/components/task.css">
-    <link rel="stylesheet" href="./styles/components/tag.css">
-    <link rel="stylesheet" href="./styles/components/quickview.css">
-    <link rel="stylesheet" href="./styles/components/inputDate.css">
-    <link rel="stylesheet" href="./styles/components/inputText.css">
-    <link rel="stylesheet" href="./styles/components/label.css">
-    <link rel="stylesheet" href="./styles/components/textarea.css">
-    <link rel="stylesheet" href="./styles/components/select.css">
-</head>
+    openQuickview() {
+        const quickview = document.createElement('div')
+        quickview.classList.add('quickview')
 
-<body>
-    <div class="header">
-        <img src="./assets/logo.svg" class="logo">
-    </div>
-    <div class="options">
-        <div class="options__buttons">
-            <button class="button primary-button" id="new-task">
-                <img src="./assets/new-white.svg" class="button__icon">
-                Tarefa
-            </button>
-            <button class="button secundary-button">
-                <img src="./assets/new-orange.svg" class="button__icon">
-                Categoria
-            </button>
-        </div>
-        <div class="options__filters">
-            <input type="date">
-            <input type="text">
-            <label>Exibir tarefas concluídas</label>
-            <input type="checkbox">
-        </div>
-    </div>
+        console.log('teste2')
 
-    <div class="quickview">
+        quickview.innerHTML = `
         <div class="quickview__header">
             <p class="quickview__header__title">Tarefa</p>
         </div>
@@ -88,11 +53,10 @@
             <button class="button primary-button">Salvar</button>
             <button class="button secundary-button">Fechar</button>
         </div>
+        `
 
-    </div>
+        return quickview
+    }
+}
 
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-</body>
-</html>
+export default new Quickview;

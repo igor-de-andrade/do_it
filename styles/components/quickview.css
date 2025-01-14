@@ -44,3 +44,9 @@
     padding: 5px;
     gap: 10px;
 }
+
+.task-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

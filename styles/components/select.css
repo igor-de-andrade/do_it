@@ -1,0 +1,14 @@
+@import url('../global.css');
+
+.select {
+    display: flex;
+    flex-direction: column;
+}
+
+.select__field {
+    font-family: var(--default-font);
+    padding: 4px;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    background-color: #FFFFFF;
+}

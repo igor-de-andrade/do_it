@@ -1,0 +1,6 @@
+@import url('../global.css');
+
+.label {
+    font-family: var(--default-font);
+    font-size: 14px;
+}
